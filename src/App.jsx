@@ -1,6 +1,7 @@
 import AboutMe from './components/AboutMe'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Technologies from './components/Tchnologies'
 
 const App = () => {
     return (
@@ -12,7 +13,8 @@ const App = () => {
       <div className='container mx-auto px-8'>
       <Navbar/>
       <Hero/>
-      <AboutMe/>
+      <AboutMe/> 
+      <Technologies/>
       </div>
         
        
