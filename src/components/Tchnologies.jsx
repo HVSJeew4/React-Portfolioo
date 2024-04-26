@@ -4,10 +4,10 @@ import { SiMongodb } from "react-icons/si"
 import { FaNodeJs } from "react-icons/fa"
 import { DiRedis } from "react-icons/di"
 import { BiLogoPostgresql } from "react-icons/bi"
-import { animate, motion } from "framer-motion"
+import { motion } from "framer-motion"
 
 const iconVarient =(duration)=>({
-  initial:{y:-10},
+  initial:{y:-10}, 
   animate:{
     y:[10,-10],
     transition:{

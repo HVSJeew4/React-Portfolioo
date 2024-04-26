@@ -1,7 +1,6 @@
 import { HERO_CONTENT } from "../constants";
 import ProfilePhoto from "../assets/kevinRushProfile.png";
-import { delay, motion, transform } from "framer-motion";
-import { DiKrakenjs } from "react-icons/di";
+import {  motion, } from "framer-motion";
 
 
 const container =(delay)=>({
